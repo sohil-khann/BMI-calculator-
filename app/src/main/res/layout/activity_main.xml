@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:autofillHints=""
+      android:ems="10"
+      android:hint="@string/hint_wt"
+      android:id="@+id/edt_weight"
+      android:inputType="numberDecimal"
+      android:textColor="#EA8E8E"
+
+       />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint_htf"
+        android:id="@+id/edt_height"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint_htIn"
+        android:id="@+id/edt_heightIn"
+        android:inputType="numberDecimal"
+ />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:backgroundTint="#BD5151"
+        android:id="@+id/btn_calc"
+        android:layout_marginTop="11dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:id="@+id/txt_result"
+        android:textColor="#EA8E8E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"/>
+
+</LinearLayout>
